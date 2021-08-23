@@ -1,0 +1,4 @@
+-agreguen la capeta functions a la carpeta principal 
+-reemplazen los archivos html con advanced.php y data.php en 
+http://localhost:8000/dashboard/pages/forms/advanced.html (Turnos)
+http://localhost:8000/dashboard/pages/tables/data.html (Empleados-usuarios)
