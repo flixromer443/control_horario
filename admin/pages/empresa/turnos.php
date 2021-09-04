@@ -241,9 +241,9 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../forms/editors.html" class="nav-link">
+                <a href="presentismo.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Editors</p>
+                  <p>tablero de presentismo</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -284,381 +284,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-header">EXAMPLES</li>
-          <li class="nav-item">
-            <a href="../calendar.html" class="nav-link">
-              <i class="nav-icon far fa-calendar-alt"></i>
-              <p>
-                Calendar
-                <span class="badge badge-info right">2</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Gallery
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../kanban.html" class="nav-link">
-              <i class="nav-icon fas fa-columns"></i>
-              <p>
-                Kanban Board
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-envelope"></i>
-              <p>
-                Mailbox
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../mailbox/mailbox.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Inbox</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../mailbox/compose.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Compose</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../mailbox/read-mail.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Read</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                Pages
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../examples/invoice.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Invoice</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/profile.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Profile</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/e-commerce.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>E-commerce</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/projects.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Projects</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/project-add.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Add</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/project-edit.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Edit</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/project-detail.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Detail</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/contacts.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Contacts</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/faq.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>FAQ</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/contact-us.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Contact us</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-plus-square"></i>
-              <p>
-                Extras
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v1
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="../examples/login.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/register.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/forgot-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/recover-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v1</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v2
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="../examples/login-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/register-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/forgot-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/recover-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v2</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/lockscreen.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Lockscreen</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/legacy-user-menu.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Legacy User Menu</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/language-menu.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Language Menu</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/404.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Error 404</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/500.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Error 500</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/pace.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Pace</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/blank.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Blank Page</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../../starter.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Starter Page</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-search"></i>
-              <p>
-                Search
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../search/simple.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Simple Search</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../search/enhanced.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Enhanced</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-header">MISCELLANEOUS</li>
-          <li class="nav-item">
-            <a href="../../iframe.html" class="nav-link">
-              <i class="nav-icon fas fa-ellipsis-h"></i>
-              <p>Tabbed IFrame Plugin</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
-              <p>Documentation</p>
-            </a>
-          </li>
-          <li class="nav-header">MULTI LEVEL EXAMPLE</li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-circle"></i>
-              <p>
-                Level 1
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Level 2
-                    <i class="right fas fa-angle-left"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
-            </a>
-          </li>
-          <li class="nav-header">LABELS</li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-danger"></i>
-              <p class="text">Important</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-warning"></i>
-              <p>Warning</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-info"></i>
-              <p>Informational</p>
-            </a>
-          </li>
+         
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -703,17 +329,17 @@
                 <tr>
                   <th>ID</th>
                   <th>Descripci&oacute;n</th>
-                  <th>Dias</th>
-                  <th>Horarios</th>
+                  <th>dia y horario de ingreso</th>
+                  <th>dia y horario de salida</th>
                   <th>Acciones</th>
                 </tr>
                 </thead>
                 <tbody>
                 <?php
                   $link=mysqli_connect("db","root","root","gestion_empleados");
-                  $sql="select t.id,t.name,d.weekdays1,d.weekdays2,s.checkin_time,s.checkout_time,s.checkin_time2,s.checkout_time2 from turns as t inner join days as d on d.id=t.days_id inner join schedules as s on s.id=t.schedule_id;";
+                  $sql="select * from turns";
 
-              
+
                 if($stmt = mysqli_prepare($link, $sql)){
                   // Bind variables to the prepared statement as parameters
                   
@@ -729,30 +355,26 @@
                          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
                           echo '<tr>
                           <td>'.$row['id'].'</td>
-                          <td>'.$row['name'].'</td>';
+                          <td>'.$row['description'].'</td>';
                           //dias
+                          $id=$row['id'];
                           $dias=["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"];
-
-                          $dias_semana1=explode(",",$row['weekdays1']);
-                          echo '<td>';
-                          foreach($dias_semana1 as $d){
-                            echo $dias[$d]." /";
+                          $sql2="select  s.checkin_day, s.checkin_hour, s.checkout_day,s.checkout_hour from turns as t left join schedules as s on s.turn_id=t.id where t.id='$id'";
+                          
+                          $res5=mysqli_query($link,$sql2);
+                          echo "<td>";
+                          while($row2=mysqli_fetch_array($res5)){
+                            echo '<p>'.$dias[$row2[0]].' - '.$row2[1].'</p><br>';
                           }
-                          echo "</br>";
-                          //dias rotativos
-                          if($row['weekdays2']!="-"){
-                            $dias_semana2=explode(",",$row['weekdays2']);
-                            foreach($dias_semana2 as $d){
-                              echo $dias[$d]." /";
-                            }
-                          }
-                          echo '</td>';
-                          echo '<td>'.$row['checkin_time'].' - '.$row['checkout_time'].'</br>';
-                          //horas rotativas
-                          if($row['checkin_time2']!="-"){
-                            echo $row['checkin_time2'].' - '.$row['checkout_time2'];
-                          }
+                          
+                          
                           echo'</td>';
+                          $res5=mysqli_query($link,$sql2);
+                          echo "<td>";
+                            while($row2=mysqli_fetch_array($res5)){
+                              echo '<p>'.$dias[$row2[2]].' - '.$row2[3].'</p><br>';
+                            }
+                          echo "</td>";
                           echo '<td>
                           <form action="../../functions/empresa/insert_days.php" method="POST">
 
@@ -769,7 +391,7 @@
                                     </button>
                                   </div>
                                   <div class="modal-body">
-                                    <p>Deseas eliminar permanentemente el turno "'.$row['name'].'"?</p>
+                                    <p>Deseas eliminar permanentemente el turno "'.$row['description'].'"?</p>
                                   </div>
                                   <div class="modal-footer justify-content-between">';?>
                                     <button type="button" class="btn btn-outline-ligth" data-dismiss="modal">Cerrar</button>
@@ -855,16 +477,10 @@
                     <div class="step" data-target="#information-part2">
                       <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
                         <span class="bs-stepper-circle">3</span>
-                        <span class="bs-stepper-label">Ciclo rotativo 1(opcional)</span>
+                        <span class="bs-stepper-label">Finalizar carga</span>
                       </button>
                     </div>
-                    <div class="line"></div>
-                    <div class="step" data-target="#information-part3">
-                      <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-                        <span class="bs-stepper-circle">4</span>
-                        <span class="bs-stepper-label">Ciclo rotativo 2(opcional)</span>
-                      </button>
-                    </div>
+                    
                   </div>
                  
                   <div class="bs-stepper-content">
@@ -888,44 +504,66 @@
                         <br>
                       
                         <br>
+                        <script>
+                          function generateClocks(id,id1,id2,id3,value1,value2){
+                               var x = document.getElementById(id1);
+                               var y = document.getElementById(id2);
+                               var z = document.getElementById(id3);
+                               
+                                var a=document.getElementById(id).checked
+                                if (x.style.display === "none" && a==true) {
+                                  x.style.display = "block";
+                                  y.style.display = "block";
+                                  z.style.display = "block";
+                                  
+                                  
+                                } else {
+                                  x.style.display = "none";
+                                  y.style.display = "none";
+                                  z.style.display = "none";
+                                  document.getElementById(value1).value=""
+                                  document.getElementById(value2).value=""
+                                }
+                          }
+                        </script>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="lunes" name="dias" value="1">
+                          <input type="checkbox" id="lunes" name="dias" value="1" onclick="generateClocks('lunes','a','codlunes','c','ctc1hours','ct1')">
                           <label for="lunes" >
                               lunes
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="martes" name="dias" value="2">
+                          <input type="checkbox" id="martes" name="dias" value="2" onclick="generateClocks('martes','aa','codmartes','cc','ctc2hours','ct2')">
                           <label for="martes" >
                               martes
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="miercoles" name="dias" value="3">
+                          <input type="checkbox" id="miercoles" name="dias" value="3" onclick="generateClocks('miercoles','aaa','codmiercoles','ccc','ctc3hours','ct3')">
                           <label for="miercoles" >
                               miercoles
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="jueves" name="dias" value="4">
+                          <input type="checkbox" id="jueves" name="dias" value="4" onclick="generateClocks('jueves','aaaa','codjueves','cccc','ctc4hours','ct4')">
                           <label for="jueves" >
                               jueves
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="viernes" name="dias"  value="5">
+                          <input type="checkbox" id="viernes" name="dias"  value="5" onclick="generateClocks('viernes','aaaaa','codviernes','ccccc','ctc5hours','ct5')">
                           <label for="viernes">
                               viernes
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="sabado"  value="6" name="dias">
+                          <input type="checkbox" id="sabado"  value="6" name="dias" onclick="generateClocks('sabado','aaaaaa','codsabado','cccccc','ctc6hours','ct6')">
                           <label for="sabado">
                               sabado
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="domingo"  value="0" name="dias">
+                          <input type="checkbox" id="domingo"  value="0" name="dias" onclick="generateClocks('domingo','aaaaaaa','coddomingo','ccccccc','ctc7hours','ct7')">
                           <label for="domingo">
                               domingo
                           </label>
@@ -937,71 +575,69 @@
                       <br><br>
                       <table>
                         <tr>
-                          <td>
+                          <td id="a" style="display: none;">
                           <label for="aaa">lunes</label>
-
                           <div class="input-group date" id="timepicker" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aaa" data-target="#timepicker"/>
-                            <div class="input-group-append" data-target="#timepicker" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
+                          <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc1hours" data-target="#timepicker"/><div class="input-group-append" data-target="#timepicker" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="far fa-clock"></i>
+                          </div>
+                        </div></div>
                           </td>
-                          <td>
+                          <td id="aa" style="display: none;">
                           <label for="aa">martes</label>
 
                           <div class="input-group date" id="timepicker2" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aa" data-target="#timepicker2"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc2hours" data-target="#timepicker2"/>
                             <div class="input-group-append" data-target="#timepicker2" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
+                          <td id="aaa" style="display: none;">
                           <label for="aa">miercoles</label>
 
                           <div class="input-group date" id="timepicker3" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aa" data-target="#timepicker3"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc3hours" data-target="#timepicker3"/>
                             <div class="input-group-append" data-target="#timepicker3" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
+                          <td id="aaaa" style="display: none;">
                           <label for="aa">jueves</label>
 
                           <div class="input-group date" id="timepicker4" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aa" data-target="#timepicker4"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc4hours" data-target="#timepicker4"/>
                             <div class="input-group-append" data-target="#timepicker4" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
+                          <td id="aaaaa" style="display: none;">
                           <label for="aa">viernes</label>
 
                           <div class="input-group date" id="timepicker5" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aa" data-target="#timepicker5"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc5hours" data-target="#timepicker5"/>
                             <div class="input-group-append" data-target="#timepicker5" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
+                          <td id="aaaaaa" style="display: none;">
                           <label for="aa">sabado</label>
 
                           <div class="input-group date" id="timepicker6" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aa" data-target="#timepicker6"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc6hours" data-target="#timepicker6"/>
                             <div class="input-group-append" data-target="#timepicker6" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
+                          <td id="aaaaaaa" style="display: none;">
                           <label for="aa">domingo</label>
 
                           <div class="input-group date" id="timepicker7" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc1hours" id="aa" data-target="#timepicker7"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc7hours" data-target="#timepicker7"/>
                             <div class="input-group-append" data-target="#timepicker7" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
@@ -1016,105 +652,117 @@
 
                       <label for="">Dia de salida</label>
                       <br><br>
-                      <select class="custom-select" name="codlunes" id="codlunes" style="width: 100px;" >
-                        <option>Lunes</option>
-                        <option>Martes</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>martes</option>
-                        <option>miercoles</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>miercoles</option>
-                        <option>jueves</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>jueves</option>
-                        <option>viernes</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>viernes</option>
-                        <option>sabado</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>sabado</option>
-                        <option>domingo</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>domingo</option>
-                        <option>lunes</option>
-                      </select>
-                      
+                      <div style="display: none;" id="codlunes">
+                      <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
+                        <option value="1" onclick="changeNameOfDays(1,'lunes')">Lunes</option>
+                        <option value="2" onclick="changeNameOfDays(1,'martes')">Martes</option>
+                      </select></div>
+                      <div style="display: none;" id="codmartes">
+                      <select class="custom-select"  name="dias_de_salida" style="width: 100px;" >
+                        <option value="2" onclick="changeNameOfDays(2,'martes')">martes</option>
+                        <option value="3" onclick="changeNameOfDays(2,'miercoles')">miercoles</option>
+                      </select></div>
+                      <div style="display: none;"id="codmiercoles">
+                      <select class="custom-select"  name="dias_de_salida"   style="width: 100px;">
+                        <option value="3" onclick="changeNameOfDays(3,'miercoles')">miercoles</option>
+                        <option value="4" onclick="changeNameOfDays(3,'jueves')">jueves</option>
+                      </select></div>
+                      <div style="display: none;"id="codjueves">
+                      <select class="custom-select"  style="width: 100px;"  name="dias_de_salida"  >
+                        <option value="4" onclick="changeNameOfDays(4,'jueves')">jueves</option>
+                        <option value="5" onclick="changeNameOfDays(4,'viernes')">viernes</option>
+                      </select></div>
+                      <div style="display: none;"id="codviernes">
+                      <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
+                        <option value="5" onclick="changeNameOfDays(5,'viernes')">viernes</option>
+                        <option value="6" onclick="changeNameOfDays(5,'sabado')">sabado</option>
+                      </select></div>
+                      <div style="display: none;" id="codsabado">
+                      <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
+                        <option value="6" onclick="changeNameOfDays(6,'sabado')">sabado</option>
+                        <option value="0" onclick="changeNameOfDays(6,'domingo')">domingo</option>
+                      </select></div>
+                      <div style="display: none;" id="coddomingo">
+                      <select class="custom-select"  name="dias_de_salida"   style="width: 100px;"  >
+                        <option value="0" onclick="changeNameOfDays(7,'domingo')">domingo</option>
+                        <option value="1" onclick="changeNameOfDays(7,'lunes')">lunes</option>
+                      </select></div>
+                      <script>
+                        function changeNameOfDays(id,name){
+                            document.getElementById(id).innerHTML=name
+
+                        }
+                      </script>
                         <br><br>
                       <label for="">Hora de salida</label>
                       <br><br>
                       <table>
                         <tr>
-                          <td>
-                          <label for="ct1">lunes</label>
+                          <td id="c" style="display: none;">
+                          <label for="ct1" id="1">lunes</label>
 
                           <div class="input-group date" id="timepicker8" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="ct1" data-target="#timepicker8"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct1" data-target="#timepicker8"/>
                             <div class="input-group-append" data-target="#timepicker8" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
-                          <label for="ct2">martes</label>
+                          <td id="cc" style="display: none;">
+                          <label for="ct2" id="2">martes</label>
 
                           <div class="input-group date" id="timepicker9" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="ct2" data-target="#timepicker9"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct2" data-target="#timepicker9"/>
                             <div class="input-group-append" data-target="#timepicker9" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
-                          <label for="aa">miercoles</label>
+                          <td id="ccc" style="display: none;">
+                          <label for="" id="3">miercoles</label>
 
                           <div class="input-group date" id="timepicker10" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="aa" data-target="#timepicker10"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct3" data-target="#timepicker10"/>
                             <div class="input-group-append" data-target="#timepicker10" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
-                          <label for="aa">jueves</label>
+                          <td id="cccc" style="display: none;">
+                          <label for="aa" id="4">jueves</label>
 
                           <div class="input-group date" id="timepicker11" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="aa" data-target="#timepicker11"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct4" data-target="#timepicker11"/>
                             <div class="input-group-append" data-target="#timepicker11" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
-                          <label for="aa">viernes</label>
+                          <td id="ccccc" style="display: none;">
+                          <label for="aa" id="5">viernes</label>
 
                           <div class="input-group date" id="timepicker12" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="aa" data-target="#timepicker12"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct5" data-target="#timepicker12"/>
                             <div class="input-group-append" data-target="#timepicker12" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
-                          <label for="aa">sabado</label>
+                          <td id="cccccc" style="display: none;">
+                          <label for="aa" id="6">sabado</label>
 
                           <div class="input-group date" id="timepicker13" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="aa" data-target="#timepicker13"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct6" data-target="#timepicker13"/>
                             <div class="input-group-append" data-target="#timepicker13" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
                           </td>
-                          <td>
-                          <label for="aa">domingo</label>
+                          <td id="ccccccc" style="display: none;">
+                          <label for="aa" id="7">domingo</label>
 
                           <div class="input-group date" id="timepicker14" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc2hours" id="aa" data-target="#timepicker14"/>
+                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct7" data-target="#timepicker14"/>
                             <div class="input-group-append" data-target="#timepicker14" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
@@ -1133,506 +781,20 @@
                     </div>
                     <div id="information-part2" class="content" role="tabpanel" aria-labelledby="information-part-trigger">
                     <div>
-                        <label><h3>Ingreso</h3></label>
-                        <br>
-                        <label for="">Dia de ingreso</label>
-                        <br>
-                      
-                        <br>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2lunes" name="cr2" value="1">
-                          <label for="cr2lunes" >
-                              lunes
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2martes" name="cr2" value="2">
-                          <label for="cr2martes" >
-                              martes
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2miercoles" name="cr2" value="3">
-                          <label for="cr2miercoles" >
-                              miercoles
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2jueves" name="cr2" value="4">
-                          <label for="cr2jueves" >
-                              jueves
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2viernes" name="cr2"  value="5">
-                          <label for="cr2viernes">
-                              viernes
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2sabado"  value="6" name="cr2">
-                          <label for="cr2sabado">
-                              sabado
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr2domingo"  value="0" name="cr2">
-                          <label for="cr2domingo">
-                              domingo
-                          </label>
-                        </div>
-                        <br><br>
-                      <br>
-
-                      <label for="">Hora de ingreso</label>
-                      <br><br>
-                      <table>
-                        <tr>
-                          <td>
-                          <label for="aaa">lunes</label>
-
-                          <div class="input-group date" id="timepicker15" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aaa" data-target="#timepicker15"/>
-                            <div class="input-group-append" data-target="#timepicker15" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">martes</label>
-
-                          <div class="input-group date" id="timepicker16" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aa" data-target="#timepicker16"/>
-                            <div class="input-group-append" data-target="#timepicker16" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">miercoles</label>
-
-                          <div class="input-group date" id="timepicker17" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aa" data-target="#timepicker17"/>
-                            <div class="input-group-append" data-target="#timepicker17" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">jueves</label>
-
-                          <div class="input-group date" id="timepicker18" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aa" data-target="#timepicker18"/>
-                            <div class="input-group-append" data-target="#timepicker18" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">viernes</label>
-
-                          <div class="input-group date" id="timepicker19" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aa" data-target="#timepicker19"/>
-                            <div class="input-group-append" data-target="#timepicker19" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">sabado</label>
-
-                          <div class="input-group date" id="timepicker20" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aa" data-target="#timepicker20"/>
-                            <div class="input-group-append" data-target="#timepicker20" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">domingo</label>
-
-                          <div class="input-group date" id="timepicker21" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc3hours" id="aa" data-target="#timepicker21"/>
-                            <div class="input-group-append" data-target="#timepicker21" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-
-                      </br></br>
-                      <label><h3>Salida</h3></label>
-                      <br>
-
-                      <label for="">Dia de salida</label>
-                      <br><br>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>Lunes</option>
-                        <option>Martes</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>martes</option>
-                        <option>miercoles</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>miercoles</option>
-                        <option>jueves</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>jueves</option>
-                        <option>viernes</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>viernes</option>
-                        <option>sabado</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>sabado</option>
-                        <option>domingo</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>domingo</option>
-                        <option>lunes</option>
-                      </select>
-                      
-                        <br><br>
-                      <label for="">Hora de salida</label>
-                      <br><br>
-                      <table>
-                        <tr>
-                          <td>
-                          <label for="aaa">lunes</label>
-
-                          <div class="input-group date" id="timepicker22" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aaa" data-target="#timepicker22"/>
-                            <div class="input-group-append" data-target="#timepicker22" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">martes</label>
-
-                          <div class="input-group date" id="timepicker23" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aa" data-target="#timepicker23"/>
-                            <div class="input-group-append" data-target="#timepicker23" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">miercoles</label>
-
-                          <div class="input-group date" id="timepicker24" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aa" data-target="#timepicker24"/>
-                            <div class="input-group-append" data-target="#timepicker24" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">jueves</label>
-
-                          <div class="input-group date" id="timepicker25" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aa" data-target="#timepicker25"/>
-                            <div class="input-group-append" data-target="#timepicker25" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">viernes</label>
-
-                          <div class="input-group date" id="timepicker26" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aa" data-target="#timepicker26"/>
-                            <div class="input-group-append" data-target="#timepicker26" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">sabado</label>
-
-                          <div class="input-group date" id="timepicker27" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aa" data-target="#timepicker27"/>
-                            <div class="input-group-append" data-target="#timepicker27" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">domingo</label>
-
-                          <div class="input-group date" id="timepicker28" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc4hours" id="aa" data-target="#timepicker28"/>
-                            <div class="input-group-append" data-target="#timepicker28" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-
-                      </br></br>
-                      
-                      
-                    </br>
-                      <button class="btn btn-primary" type="button" onclick="stepper.previous()">Anterior</button>
-                      <button class="btn btn-primary"   type="button" onclick="stepper.next()">Siguiente</button>
+                    <div class="alert alert-info" role="alert">
+                        Si desea agregar este turno oprima enviar
                     </div>
+                    <div id="submitError">
+                      
                     </div>
-                    <div id="information-part3" class="content" role="tabpanel" aria-labelledby="information-part-trigger">
-                    <div>
-                        <label><h3>Ingreso</h3></label>
-                        <br>
-                        <label for="">Dia de ingreso</label>
-                        <br>
-                      
-                        <br>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3lunes" name="cr3" value="1">
-                          <label for="cr3lunes" >
-                              lunes
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3martes" name="cr3" value="2">
-                          <label for="cr3martes" >
-                              martes
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3miercoles" name="cr3" value="3">
-                          <label for="cr3miercoles" >
-                              miercoles
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3jueves" name="cr3" value="4">
-                          <label for="cr3jueves" >
-                              jueves
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3viernes" name="cr3"  value="5">
-                          <label for="cr3viernes">
-                              viernes
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3sabado"  value="6" name="cr3">
-                          <label for="cr3sabado">
-                              sabado
-                          </label>
-                        </div>
-                        <div class="icheck-primary d-inline">
-                          <input type="checkbox" id="cr3domingo"  value="0" name="cr3">
-                          <label for="cr3domingo">
-                              domingo
-                          </label>
-                        </div>
-                        <br><br>
-                      <br>
-
-                      <label for="">Hora de ingreso</label>
-                      <br><br>
-                      <table>
-                        <tr>
-                          <td>
-                          <label for="aaa">lunes</label>
-
-                          <div class="input-group date" id="timepicker29" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aaa" data-target="#timepicker29"/>
-                            <div class="input-group-append" data-target="#timepicker29" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">martes</label>
-
-                          <div class="input-group date" id="timepicker30" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aa" data-target="#timepicker30"/>
-                            <div class="input-group-append" data-target="#timepicker30" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">miercoles</label>
-
-                          <div class="input-group date" id="timepicker31" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aa" data-target="#timepicker31"/>
-                            <div class="input-group-append" data-target="#timepicker31" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">jueves</label>
-
-                          <div class="input-group date" id="timepicker32" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aa" data-target="#timepicker32"/>
-                            <div class="input-group-append" data-target="#timepicker32" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">viernes</label>
-
-                          <div class="input-group date" id="timepicker33" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aa" data-target="#timepicker33"/>
-                            <div class="input-group-append" data-target="#timepicker33" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">sabado</label>
-
-                          <div class="input-group date" id="timepicker34" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aa" data-target="#timepicker34"/>
-                            <div class="input-group-append" data-target="#timepicker34" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">domingo</label>
-
-                          <div class="input-group date" id="timepicker35" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc5hours" id="aa" data-target="#timepicker35"/>
-                            <div class="input-group-append" data-target="#timepicker35" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-
-                      </br></br>
-                      <label><h3>Salida</h3></label>
-                      <br>
-
-                      <label for="">Dia de salida</label>
-                      <br><br>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>Lunes</option>
-                        <option>Martes</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>martes</option>
-                        <option>miercoles</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>miercoles</option>
-                        <option>jueves</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>jueves</option>
-                        <option>viernes</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>viernes</option>
-                        <option>sabado</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>sabado</option>
-                        <option>domingo</option>
-                      </select>
-                      <select class="custom-select" name="place_of_birth" id="place_of_birth" style="width: 100px;" >
-                        <option>domingo</option>
-                        <option>lunes</option>
-                      </select>
-                      
-                        <br><br>
-                      <label for="">Hora de salida</label>
-                      <br><br>
-                      <table>
-                        <tr>
-                          <td>
-                          <label for="aaa">lunes</label>
-
-                          <div class="input-group date" id="timepicker36" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aaa" data-target="#timepicker36"/>
-                            <div class="input-group-append" data-target="#timepicker36" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">martes</label>
-
-                          <div class="input-group date" id="timepicker37" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aa" data-target="#timepicker37"/>
-                            <div class="input-group-append" data-target="#timepicker37" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">miercoles</label>
-
-                          <div class="input-group date" id="timepicker38" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aa" data-target="#timepicker38"/>
-                            <div class="input-group-append" data-target="#timepicker38" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">jueves</label>
-
-                          <div class="input-group date" id="timepicker39" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aa" data-target="#timepicker39"/>
-                            <div class="input-group-append" data-target="#timepicker39" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">viernes</label>
-
-                          <div class="input-group date" id="timepicker40" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aa" data-target="#timepicker40"/>
-                            <div class="input-group-append" data-target="#timepicker40" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">sabado</label>
-
-                          <div class="input-group date" id="timepicker41" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aa" data-target="#timepicker41"/>
-                            <div class="input-group-append" data-target="#timepicker41" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td>
-                          <label for="aa">domingo</label>
-
-                          <div class="input-group date" id="timepicker42" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="ctc6hours" id="aa" data-target="#timepicker42"/>
-                            <div class="input-group-append" data-target="#timepicker42" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-
-                      </br></br>
-                      
-                      
-                    </br>
-                      <button class="btn btn-primary" type="button" onclick="stepper.previous()">Anterior</button>
+                    <button class="btn btn-primary" type="button" onclick="stepper.previous()">Anterior</button>
                       <button type="submit" name="create" id="create" value="create" class="btn btn-primary">Enviar</button>
                     </div>
                     </div>
+                    
+                        
+                      
+                    
                   </div>
                 </div>
               </div>
@@ -1994,168 +1156,100 @@
   $.validator.setDefaults({
     submitHandler: function () {
       var errors=false
+      
+      
+      
+      //dias de salida
+      var CheckoutDaysSelected=[];
+      var checkboxes2=document.getElementsByName("dias_de_salida")
       //Validacion de dias
+      
       var checkboxes = document.getElementsByName('dias');
       var DaysSelected = [];
       for (var i=0; i<checkboxes.length; i++) {
-          if (checkboxes[i].checked) {
+          if (checkboxes[i].checked){
+              CheckoutDaysSelected.push(checkboxes2[i].value);
               DaysSelected.push(checkboxes[i].value);
           }
       }
+
       if(DaysSelected.length<3){
         errors=true
-        alert("debe selecionar al menos 3 dias");
+        document.getElementById('submitError').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Lo sentimos pero ha ocurrido un error</strong>, debe seleccionar almenos 3 dias.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+        //alert("debe selecionar al menos 3 dias");
       }
-      //Validacion de ciclo rotativo2
-      var checkboxes = document.getElementsByName('cr2');
-      var RotativeDaysSelected2 = [];
+      //validacion de horas de ingreso
+      var checkboxes = document.getElementsByName('horas_de_ingreso');
+      var CheckinHoursSelected = [];
       for (var i=0; i<checkboxes.length; i++) {
-          if (checkboxes[i].checked) {
-              RotativeDaysSelected2.push(checkboxes[i].value);
+          if (checkboxes[i].value!="") {
+              CheckinHoursSelected.push(checkboxes[i].value);
           }
       }
-
-      
-
-      if(RotativeDaysSelected2.length>0){
-        if(RotativeDaysSelected2.length<3){
-          errors=true
-          alert("debe seleccionar al menos 3 dias rotativos")
-        }
+      if(CheckinHoursSelected.length<3){
+        errors=true
+        document.getElementById('submitError').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Lo sentimos pero ha ocurrido un error</strong>, todos los campos son obligatorios<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+        //alert("todos los campos son obligatorios");
       }
-      //Validacion de ciclo rotativo3
-      var checkboxes = document.getElementsByName('cr3');
-      var RotativeDaysSelected3 = [];
+      
+      //alert(CheckoutDaysSelected)
+      //validacion de horas de salida
+      var checkboxes = document.getElementsByName('horas_de_salida');
+      var CheckoutHoursSelected = [];
       for (var i=0; i<checkboxes.length; i++) {
-          if (checkboxes[i].checked) {
-              RotativeDaysSelected3.push(checkboxes[i].value);
+          if (checkboxes[i].value!="") {
+              CheckoutHoursSelected.push(checkboxes[i].value);
           }
       }
+      if(CheckoutHoursSelected.length<3){
+        errors=true
+        //alert("todos los campos son obligatorios");
+        document.getElementById('submitError').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Lo sentimos pero ha ocurrido un error</strong>, todos los campos son obligatorios.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+      }
+     
 
-      
 
-      if(RotativeDaysSelected3.length>0){
-        if(RotativeDaysSelected3.length<3){
-          errors=true
-          alert("debe seleccionar al menos 3 dias rotativos")
-        }
-      }
 
-      //tomar horas
-      var checkboxes = document.getElementsByName('ctc1hours');
-      var checkinHoursCicle1 = [];
-      for (var i=0; i<checkboxes.length; i++) {
-            if(checkboxes[i].value!=""){
-              checkinHoursCicle1.push(checkboxes[i].value);
-            }
-           
-      }
-      var checkboxes = document.getElementsByName('ctc2hours');
-      var checkoutHoursCicle1 = [];
-      for (var i=0; i<checkboxes.length; i++) {
-            if(checkboxes[i].value!=""){
-              checkoutHoursCicle1.push(checkboxes[i].value);
-            }
-           
-      }
-      //horas ciclo 2
-      var checkboxes = document.getElementsByName('ctc3hours');
-      var checkinHoursCicle2 = [];
-      for (var i=0; i<checkboxes.length; i++) {
-            if(checkboxes[i].value!=""){
-              checkinHoursCicle2.push(checkboxes[i].value);
-            }
-           
-      }
-      var checkboxes = document.getElementsByName('ctc4hours');
-      var checkoutHoursCicle2 = [];
-      for (var i=0; i<checkboxes.length; i++) {
-            if(checkboxes[i].value!=""){
-              checkoutHoursCicle2.push(checkboxes[i].value);
-            }
-           
-      }
-      //horas ciclo 3
-      var checkboxes = document.getElementsByName('ctc5hours');
-      var checkinHoursCicle3 = [];
-      for (var i=0; i<checkboxes.length; i++) {
-            if(checkboxes[i].value!=""){
-              checkinHoursCicle3.push(checkboxes[i].value);
-            }
-           
-      }
-      var checkboxes = document.getElementsByName('ctc6hours');
-      var checkoutHoursCicle3 = [];
-      for (var i=0; i<checkboxes.length; i++) {
-            if(checkboxes[i].value!=""){
-              checkoutHoursCicle3.push(checkboxes[i].value);
-            }
-           
-      }
-      
 
-      
-      
 
-      /*
-      //validacion horario rotativo
-      var CheckInTime=$('#checkin_time2').val()
-      var CheckOutTime=$('#checkout_time2').val()
-      
-      if(CheckInTime.length>0||CheckOutTime.length>0){
-        if(CheckInTime.length<3){
-          errors=true
-          alert("debe seleccionar un horario de ingreso")
-        }
-        if(CheckOutTime.length<3){
-          errors=true
-          alert("debe seleccionar un horario de salida")
-        }
-      
-
-      }*/
      // if(!errors){
         //alert(DaysSelected)
         $.ajax("http://localhost:8000/dashboard/admin/functions/empresa/insert_days.php",{
         type:'POST',
         dataType:'JSON',
         data:{
+          //nombre del turno
           'turn_name':$("#turn_name").val(),
-          //dias
-          'days':DaysSelected,
-          'rotative_cicle2':RotativeDaysSelected2,
-          'rotative_cicle3':RotativeDaysSelected3,
-
-          //horas
-          'checkinHoursCicle1':checkinHoursCicle1,
-          'checkoutHoursCicle1':checkoutHoursCicle1,
-          
-          //ciclo2
-          'checkinHoursCicle2':checkinHoursCicle2,
-          'checkoutHoursCicle2':checkoutHoursCicle2,
-          //ciclo3
-          'checkinHoursCicle3':checkinHoursCicle3,
-          'checkoutHoursCicle3':checkoutHoursCicle3,
-          //dias rotativos
-          //'rotative_days':RotativeDaysSelected,
-          
-          //horas
-          //'checkin_time':$("#checkin_time").val(),
-          //'checkout_time':$("#checkout_time").val(),
-          //horas rotativas
-          //'checkin_time2':$("#checkin_time2").val(),
-          //'checkout_time2':$("#checkout_time2").val(),
-          //verbo*/
+          //dias de ingreso
+          'checkin_days':DaysSelected,
+          //horas de ingreso
+          'checkin_hours':CheckinHoursSelected,
+          //dias de salida
+          'checkout_days':CheckoutDaysSelected,
+          //horas de salida
+          'checkout_hours':CheckoutHoursSelected,
+         //verbo
           'create':$("#create").val(),
 
         }
       }).then(function(res){
         console.log(res);
-        //location.reload();
+        if(res==0){
+          document.getElementById('submitError').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Lo sentimos pero ha ocurrido un error</strong>, compruebe que todos los campos esten completos.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+        }
+       
+        else{
+          document.getElementById('submitError').innerHTML='<div class="alert alert-success alert-dismissible fade show" role="alert">El formulario ha sido enviado con exito.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+          setTimeout(function(){location.reload()}, 3000);
+        }
       })
-      alert(DaysSelected);
-      alert(RotativeDaysSelected2);
-      alert(RotativeDaysSelected3);
+        
+        
+     // alert(DaysSelected);
+      //alert(CheckinHoursSelected)
+      //alert(CheckoutHoursSelected)
+      //alert(RotativeDaysSelected2);
+      //alert(RotativeDaysSelected3);
 
 
      

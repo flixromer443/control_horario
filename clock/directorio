@@ -1,0 +1,17 @@
+total 116
+-rwxrwxrwx 1 felix felix  1627 ago 25 20:58 zk.sql
+-rwxrwxrwx 1 felix felix 39122 ago 25 20:58 zklibrary.php
+-rwxrwxrwx 1 felix felix  1312 ago 25 20:58 test3.php
+-rwxrwxrwx 1 felix felix  2730 ago 25 20:58 storing_user.php
+-rwxrwxrwx 1 felix felix 11553 ago 25 20:58 README.md
+-rwxrwxrwx 1 felix felix 18365 ago 25 20:58 LICENSE.txt
+-rwxrwxrwx 1 felix felix  1857 ago 25 20:58 deleting_user.php
+-rwxrwxrwx 1 felix felix   544 ago 25 21:14 test2.php
+drwxrwxrwx 2 felix felix  4096 ago 28 20:51 functions
+-rwxrwxrwx 1 felix felix  2731 ago 29 18:47 test.php
+-rwxrwxrwx 1 felix felix  6381 ago 29 23:03 checkin-checkout.php
+-rwxrwxrwx 1 felix felix     0 ago 30 16:18 gestion_empleados.sql
+-rwxrwxrwx 1 felix felix     4 ago 30 18:04 reloj.sh.save
+-rw-r--r-- 1 root  root      0 ago 30 19:11 logs
+-rwxrwxrwx 1 felix felix   109 ago 30 19:13 reloj.sh
+-rw-rw-r-- 1 felix felix     0 ago 30 19:13 directorio

@@ -964,7 +964,9 @@
                               </div>
                               <!-- /.modal-dialog -->
                             </div>';
-                            
+                            echo'<a href="ficha.php?id='.$row['id'].'"><button class="btn btn-primary" type="button">
+                            <i class="fa fa-eye"></i>
+                        </button></a>'; 
 
 
 
@@ -1282,7 +1284,7 @@
                             <select class="custom-select" name="address_location" id="address_location" onchange="return findPostalCodes();">
                             <?php
                                 $link=mysqli_connect("db","root","root","gestion_empleados");
-                                $sql="select * from localities";
+                                $sql="select * from postal_codes order by place";
  
                               if($stmt = mysqli_prepare($link, $sql)){
                                 // Bind variables to the prepared statement as parameters
@@ -1297,7 +1299,7 @@
                                         /* Fetch result row as an associative array. Since the result set
                                         contains only one row, we don't need to use while loop */
                                       while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                                          echo '<option value='.$row['location'].'>'.$row['location'].'</option>';
+                                          echo '<option value='.$row['postal_code'].'>'.$row['place'].'</option>';
 
                                       
                                       }

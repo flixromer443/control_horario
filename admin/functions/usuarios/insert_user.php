@@ -8,7 +8,7 @@
         $link=mysqli_connect("db","root","root","gestion_empleados");
         $query="DELETE FROM users WHERE id='$id'";
         $res=mysqli_query($link,$query);
-        header("Location:http://localhost:8000/dashboard/admin/pages/usuarios/nomina.php");
+        header("Location:../../pages/usuarios/nomina.php");
         exit();
     }
     
