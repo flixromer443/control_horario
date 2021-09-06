@@ -19,13 +19,15 @@
       
       if(!empty($turn_name)&&!empty($checkin_days)&&!empty($checkin_hours)&&!empty($checkout_days)&&!empty($checkin_hours)){
         $con=mysqli_connect("db","root","root","gestion_empleados");
-        $query="select * from turns";
+        $query="insert into turns(description) values('$turn_name')";
+        mysqli_query($con,$query);
+        $query="select turn_id from schedules where checkin_day=0 and checkin_hour='00:00:00'";
         $res=mysqli_query($con,$query);
-        $id=mysqli_num_rows($res)+1;
-        $query="insert into turns(id,description) values('$id','$turn_name')";
-        $res=mysqli_query($con,$query);
+        $id=mysqli_fetch_array($res);
+        $query="delete from schedules where turn_id='$id[0]'";
+        mysqli_query($con,$query);
         for($i=0;$i<=count($checkin_days);$i++){
-            $query="insert into schedules(turn_id,checkin_day,checkin_hour,checkout_day,checkout_hour) values('$id','$checkin_days[$i]','$checkin_hours[$i]','$checkout_days[$i]','$checkout_hours[$i]')";
+            $query="insert into schedules(turn_id,checkin_day,checkin_hour,checkout_day,checkout_hour) values('$id[0]','$checkin_days[$i]','$checkin_hours[$i]','$checkout_days[$i]','$checkout_hours[$i]')";
             mysqli_query($con,$query);
 
         }

@@ -204,5 +204,5 @@ $zk->disconnect();
 ?>
 
 <script>
-    //setTimeout(function(){location.reload()}, 6000);
+    setTimeout(function(){location.reload()}, 6000);
 </script>

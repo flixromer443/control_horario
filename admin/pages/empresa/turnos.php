@@ -573,78 +573,72 @@
 
                       <label for="">Hora de ingreso</label>
                       <br><br>
-                      <table>
-                        <tr>
-                          <td id="a" style="display: none;">
-                          <label for="aaa">lunes</label>
-                          <div class="input-group date" id="timepicker" data-target-input="nearest" style="width:100px">
-                          <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc1hours" data-target="#timepicker"/><div class="input-group-append" data-target="#timepicker" data-toggle="datetimepicker">
-                            <div class="input-group-text"><i class="far fa-clock"></i>
+                      <div class="row">
+                          <div class="col-sm-2" id="a" style="display: none;">
+                              <label for="aaa">lunes</label>
+                              <div class="input-group date" id="timepicker" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc1hours" data-target="#timepicker"/><div class="input-group-append" data-target="#timepicker" data-toggle="datetimepicker">
+                                <div class="input-group-text"><i class="far fa-clock"></i>
+                              </div>
+                            </div></div>
                           </div>
-                        </div></div>
-                          </td>
-                          <td id="aa" style="display: none;">
-                          <label for="aa">martes</label>
+                          <div class="col-sm-2" id="aa" style="display: none;">
+                            <label for="aa">martes</label>
 
-                          <div class="input-group date" id="timepicker2" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc2hours" data-target="#timepicker2"/>
-                            <div class="input-group-append" data-target="#timepicker2" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="aaa" style="display: none;">
-                          <label for="aa">miercoles</label>
-
-                          <div class="input-group date" id="timepicker3" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc3hours" data-target="#timepicker3"/>
-                            <div class="input-group-append" data-target="#timepicker3" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="aaaa" style="display: none;">
-                          <label for="aa">jueves</label>
-
-                          <div class="input-group date" id="timepicker4" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc4hours" data-target="#timepicker4"/>
-                            <div class="input-group-append" data-target="#timepicker4" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="aaaaa" style="display: none;">
-                          <label for="aa">viernes</label>
-
-                          <div class="input-group date" id="timepicker5" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc5hours" data-target="#timepicker5"/>
-                            <div class="input-group-append" data-target="#timepicker5" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="aaaaaa" style="display: none;">
-                          <label for="aa">sabado</label>
-
-                          <div class="input-group date" id="timepicker6" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc6hours" data-target="#timepicker6"/>
-                            <div class="input-group-append" data-target="#timepicker6" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="aaaaaaa" style="display: none;">
-                          <label for="aa">domingo</label>
-
-                          <div class="input-group date" id="timepicker7" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc7hours" data-target="#timepicker7"/>
-                            <div class="input-group-append" data-target="#timepicker7" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
+                            <div class="input-group date" id="timepicker2" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc2hours" data-target="#timepicker2"/>
+                              <div class="input-group-append" data-target="#timepicker2" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-2" id="aaa" style="display: none;">
+                            <label for="aa">miercoles</label>
+                            <div class="input-group date" id="timepicker3" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc3hours" data-target="#timepicker3"/>
+                              <div class="input-group-append" data-target="#timepicker3" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-2" id="aaaa" style="display: none;">
+                            <label for="aa">jueves</label>
+                            <div class="input-group date" id="timepicker4" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc4hours" data-target="#timepicker4"/>
+                              <div class="input-group-append" data-target="#timepicker4" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-2" id="aaaaa" style="display: none;">
+                            <label for="aa">viernes</label>
+                            <div class="input-group date" id="timepicker5" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc5hours" data-target="#timepicker5"/>
+                              <div class="input-group-append" data-target="#timepicker5" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-2" id="aaaaaa" style="display: none;">
+                            <label for="aa">sabado</label>
+                            <div class="input-group date" id="timepicker6" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc6hours" data-target="#timepicker6"/>
+                              <div class="input-group-append" data-target="#timepicker6" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-2" id="aaaaaaa" style="display: none;">
+                            <label for="aa">domingo</label>
+                            <div class="input-group date" id="timepicker7" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_ingreso" id="ctc7hours" data-target="#timepicker7"/>
+                              <div class="input-group-append" data-target="#timepicker7" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                      
 
                       </br></br>
                       <label><h3>Salida</h3></label>
@@ -652,41 +646,51 @@
 
                       <label for="">Dia de salida</label>
                       <br><br>
-                      <div style="display: none;" id="codlunes">
-                      <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
-                        <option value="1" onclick="changeNameOfDays(1,'lunes')">Lunes</option>
-                        <option value="2" onclick="changeNameOfDays(1,'martes')">Martes</option>
-                      </select></div>
-                      <div style="display: none;" id="codmartes">
-                      <select class="custom-select"  name="dias_de_salida" style="width: 100px;" >
-                        <option value="2" onclick="changeNameOfDays(2,'martes')">martes</option>
-                        <option value="3" onclick="changeNameOfDays(2,'miercoles')">miercoles</option>
-                      </select></div>
-                      <div style="display: none;"id="codmiercoles">
-                      <select class="custom-select"  name="dias_de_salida"   style="width: 100px;">
-                        <option value="3" onclick="changeNameOfDays(3,'miercoles')">miercoles</option>
-                        <option value="4" onclick="changeNameOfDays(3,'jueves')">jueves</option>
-                      </select></div>
-                      <div style="display: none;"id="codjueves">
-                      <select class="custom-select"  style="width: 100px;"  name="dias_de_salida"  >
-                        <option value="4" onclick="changeNameOfDays(4,'jueves')">jueves</option>
-                        <option value="5" onclick="changeNameOfDays(4,'viernes')">viernes</option>
-                      </select></div>
-                      <div style="display: none;"id="codviernes">
-                      <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
-                        <option value="5" onclick="changeNameOfDays(5,'viernes')">viernes</option>
-                        <option value="6" onclick="changeNameOfDays(5,'sabado')">sabado</option>
-                      </select></div>
-                      <div style="display: none;" id="codsabado">
-                      <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
-                        <option value="6" onclick="changeNameOfDays(6,'sabado')">sabado</option>
-                        <option value="0" onclick="changeNameOfDays(6,'domingo')">domingo</option>
-                      </select></div>
-                      <div style="display: none;" id="coddomingo">
-                      <select class="custom-select"  name="dias_de_salida"   style="width: 100px;"  >
-                        <option value="0" onclick="changeNameOfDays(7,'domingo')">domingo</option>
-                        <option value="1" onclick="changeNameOfDays(7,'lunes')">lunes</option>
-                      </select></div>
+                      <div class="row">
+                          <div class="col-sm-2" style="display: none;" id="codlunes">
+                                <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
+                              <option value="1" onclick="changeNameOfDays(1,'lunes')">Lunes</option>
+                              <option value="2" onclick="changeNameOfDays(1,'martes')">Martes</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-2" style="display: none;" id="codmartes">
+                            <select class="custom-select"  name="dias_de_salida" style="width: 100px;" >
+                              <option value="2" onclick="changeNameOfDays(2,'martes')">martes</option>
+                              <option value="3" onclick="changeNameOfDays(2,'miercoles')">miercoles</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-2" style="display: none;"id="codmiercoles">
+                            <select class="custom-select"  name="dias_de_salida"   style="width: 100px;">
+                              <option value="3" onclick="changeNameOfDays(3,'miercoles')">miercoles</option>
+                              <option value="4" onclick="changeNameOfDays(3,'jueves')">jueves</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-2" style="display: none;"id="codjueves">
+                            <select class="custom-select"  style="width: 100px;"  name="dias_de_salida"  >
+                              <option value="4" onclick="changeNameOfDays(4,'jueves')">jueves</option>
+                              <option value="5" onclick="changeNameOfDays(4,'viernes')">viernes</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-2" style="display: none;"id="codviernes">
+                            <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
+                              <option value="5" onclick="changeNameOfDays(5,'viernes')">viernes</option>
+                              <option value="6" onclick="changeNameOfDays(5,'sabado')">sabado</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-2" style="display: none;" id="codsabado">
+                            <select class="custom-select"  name="dias_de_salida"  style="width: 100px;" >
+                              <option value="6" onclick="changeNameOfDays(6,'sabado')">sabado</option>
+                              <option value="0" onclick="changeNameOfDays(6,'domingo')">domingo</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-2" style="display: none;" id="coddomingo">
+                            <select class="custom-select"  name="dias_de_salida"   style="width: 100px;"  >
+                              <option value="0" onclick="changeNameOfDays(7,'domingo')">domingo</option>
+                              <option value="1" onclick="changeNameOfDays(7,'lunes')">lunes</option>
+                            </select>
+                          </div>
+                      </div>
+                      
                       <script>
                         function changeNameOfDays(id,name){
                             document.getElementById(id).innerHTML=name
@@ -696,80 +700,72 @@
                         <br><br>
                       <label for="">Hora de salida</label>
                       <br><br>
-                      <table>
-                        <tr>
-                          <td id="c" style="display: none;">
-                          <label for="ct1" id="1">lunes</label>
-
-                          <div class="input-group date" id="timepicker8" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct1" data-target="#timepicker8"/>
-                            <div class="input-group-append" data-target="#timepicker8" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="cc" style="display: none;">
-                          <label for="ct2" id="2">martes</label>
-
-                          <div class="input-group date" id="timepicker9" data-target-input="nearest" style="width:100px">
-                            <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct2" data-target="#timepicker9"/>
-                            <div class="input-group-append" data-target="#timepicker9" data-toggle="datetimepicker">
-                                <div class="input-group-text"><i class="far fa-clock"></i></div>
-                            </div>
-                            </div>
-                          </td>
-                          <td id="ccc" style="display: none;">
+                      <div class="row">
+                        <div class="col-sm-2" id="c" style="display: none;">
+                            <label for="ct1" id="1">lunes</label>
+                            <div class="input-group date" id="timepicker8" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct1" data-target="#timepicker8"/>
+                              <div class="input-group-append" data-target="#timepicker8" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                        </div>
+                        <div class="col-sm-2" id="cc" style="display: none;">
+                           <label for="ct2" id="2">martes</label>
+                            <div class="input-group date" id="timepicker9" data-target-input="nearest" style="width:100px">
+                              <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct2" data-target="#timepicker9"/>
+                              <div class="input-group-append" data-target="#timepicker9" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                              </div>
+                        </div>
+                        <div class="col-sm-2" id="ccc" style="display: none;">
                           <label for="" id="3">miercoles</label>
-
                           <div class="input-group date" id="timepicker10" data-target-input="nearest" style="width:100px">
                             <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct3" data-target="#timepicker10"/>
                             <div class="input-group-append" data-target="#timepicker10" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
-                          </td>
-                          <td id="cccc" style="display: none;">
+                        </div>
+                        <div class="col-sm-2" id="cccc" style="display: none;">
                           <label for="aa" id="4">jueves</label>
-
                           <div class="input-group date" id="timepicker11" data-target-input="nearest" style="width:100px">
                             <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct4" data-target="#timepicker11"/>
                             <div class="input-group-append" data-target="#timepicker11" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
-                          </td>
-                          <td id="ccccc" style="display: none;">
+                        </div>
+                        <div class="col-sm-2" id="ccccc" style="display: none;">
                           <label for="aa" id="5">viernes</label>
-
                           <div class="input-group date" id="timepicker12" data-target-input="nearest" style="width:100px">
                             <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct5" data-target="#timepicker12"/>
                             <div class="input-group-append" data-target="#timepicker12" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
-                          </td>
-                          <td id="cccccc" style="display: none;">
+                        </div>
+                        <div class="col-sm-2" id="cccccc" style="display: none;">
                           <label for="aa" id="6">sabado</label>
-
                           <div class="input-group date" id="timepicker13" data-target-input="nearest" style="width:100px">
                             <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct6" data-target="#timepicker13"/>
                             <div class="input-group-append" data-target="#timepicker13" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
-                          </td>
-                          <td id="ccccccc" style="display: none;">
+                        </div>
+                        <div class="col-sm-2" id="ccccccc" style="display: none;">
                           <label for="aa" id="7">domingo</label>
-
                           <div class="input-group date" id="timepicker14" data-target-input="nearest" style="width:100px">
                             <input type="text" class="form-control datetimepicker-input" name="horas_de_salida" id="ct7" data-target="#timepicker14"/>
                             <div class="input-group-append" data-target="#timepicker14" data-toggle="datetimepicker">
                                 <div class="input-group-text"><i class="far fa-clock"></i></div>
                             </div>
                             </div>
-                          </td>
-                        </tr>
-                      </table>
+                        </div>
+                      </div>
+                      
 
                       </br></br>
                       

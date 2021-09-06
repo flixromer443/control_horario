@@ -368,6 +368,8 @@
         $res=mysqli_query($con,$query);
         $array=mysqli_fetch_array($res);
 
+        $consulta="SELECT * FROM turns";
+        $respuesta=mysqli_query($con,$consulta);
       ?>
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -376,10 +378,55 @@
           <div class="col-sm-6">
             <h1><?php echo $array[5].' '.$array[6];?></h1>
             <br>
-            <a href="ficha.php?"><button class="btn btn-primary" type="button">Descargar
-                <i class="fa fa-download"></i>
-            </button></a>
-          </div>
+            
+            <div class="row">
+                <div class="col-sm-4">
+                  <a href="ficha.php?">
+                    <button class="btn btn-primary" type="button">Descargar<i class="fa fa-download"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                              <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Asignar turno y area <i class="fa fa-clock"></i>
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <label for="turno">Turno</label><br>
+                              <select name="" id="turno" class="form-select">
+                                <?php
+                                    while($row=mysqli_fetch_array($respuesta)){
+                                      echo '<option value="'.$row[0].'">'.$row[1].'</option>';
+                                    }
+                                ?>
+                                
+                              </select>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                          </div>
+                      </div> 
+
+
+
+            </div>
+          
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -505,15 +552,23 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Partido</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="<?php echo $array[1];?>" disabled >
+                    <?php
+                      $query="select nombre from munis where id='$array[1]'";
+                      $res2=mysqli_query($con,$query);
+                      $array2=mysqli_fetch_array($res2);
+                      $query="select postal_code from postal_codes  where place='$array[10]'";
+                      $res3=mysqli_query($con,$query);
+                      $array3=mysqli_fetch_array($res3);
+                    ?>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="<?php echo $array2[0];?>" disabled >
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Localidad</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="<?php echo $array[6];?>" disabled>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="<?php echo $array[10];?>" disabled>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Codigo postal</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="<?php echo $array[6];?>" disabled>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="CP<?php echo $array3[0];?>" disabled>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Domicilio</label>
@@ -535,7 +590,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
               </form>
             </div>
@@ -546,7 +601,6 @@
             <!-- /.card -->
           </div>
           <div class="col-md-12">
-            <div class="card card-default">Nomina de empleados
               
               <div class="card-body p-0">
               <div class="card card-secondary">
@@ -555,7 +609,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form>
+              <form id="form3">
                 <div class="card-body">
                 <div class="form-group">
                         <label>Telefono celular:</label>
@@ -563,8 +617,8 @@
                             <div class="input-group-prepend">
                           <span class="input-group-text">11</span>
                       </div>
-                      <input type="hidden" name="prefijo" id="prefijo" value="11">
-                      <input type="text" name="cell_phone" id="cell_phone" value="<?php echo $array[7];?>" class="form-control" placeholder="**** ****" disabled>
+                      <input type="hidden" name="user_id" id="user_id" value="<?php echo $id;?>">
+                      <input type="tel" name="cell_phone" id="cell_phone" value="<?php echo $array[7];?>" class="form-control" placeholder="**** ****" disabled>
                     </div>
                     <div class="form-group">
                             <label>Correo electronico:</label>
@@ -573,18 +627,53 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                         </div>
-                        <input type="email" name="email" id="email" class="form-control" value="<?php echo $array[7];?> " placeholder="***@gmail.com" disabled>
+                        <input type="email" name="email" id="email" class="form-control" value="<?php echo $array[2];?> " placeholder="***@gmail.com" disabled>
                     </div>
+                    <div class="form-group">
+                    <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="customSwitch3" onclick="enableForms(3)">
+                      <label class="custom-control-label" for="customSwitch3">Editar</label>
+                    </div>
+                    </div>
+                    <div class="form-group" >
+                        <div class="row">
+                        <div class="col-sm-2" id="submit3">
+
+                        </div>
+                        <div class="col-sm-10" id="message3">
+                          
+                        </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 <!-- /.card-body -->
 
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
+                
               </form>
             </div>
               </div>
-              
+              <script>
+                function enableForms(checkbox){
+                  if(checkbox==3){
+                    let email=document.getElementById('email').disabled;
+                    let cell_phone=document.getElementById('cell_phone').disabled;
+                    if(email==true && cell_phone==true){
+                      document.getElementById('email').disabled=false;
+                      document.getElementById('cell_phone').disabled=false;
+                      document.getElementById("submit3").innerHTML='<button type="submit" id="btn3"  class="btn btn-primary">Enviar</button>';
+
+                    }else{
+                      email=document.getElementById('email').disabled=true;
+                      document.getElementById('cell_phone').disabled=true;
+                      document.getElementById("submit3").innerHTML='';
+
+                    }
+                  }
+                }
+              </script>
+                           
+               
             </div>
             <!-- /.card -->
           </div>
@@ -907,115 +996,78 @@
   
 </script>
 <script>
-  //validation
-  $(function () {
-  $.validator.setDefaults({
-    submitHandler: function () {
-      $.ajax("http://localhost:8000/dashboard/functions/insert_user.php",{
-        type:'POST',
-        dataType:'JSON',
-        data:{
-          'firstnames':$("#firstnames").val(),
-          'surnames':$("#surnames").val(),
-          'document':$("#document").val(),
-          'documents_type_id':$("#documents_type_id").val(),
-          'date_of_birth':$("#date_of_birth").val(),
-          'place_of_birth':$("#place_of_birth").val(),
-          'address_street':$("#address_street").val(),
-          'address_number':$("#address_number").val(),
-          'address_location':$("#address_location").val(),
-          'address_postal_code':$("#address_postal_code").val(),
-          'prefijo':$("#prefijo").val(),
-          'cell_phone':$("#cell_phone").val(),
-          'email':$("#email").val(),
-          
-        }
-      }).then(function(res){
-        console.log(res);
-        
-      });
-      alert( "Usuario cargado exitosamente" );
 
-    }
+                  $(function () {
+                  $.validator.setDefaults({
+                    submitHandler: function () {
+                    
+                        $.ajax("http://localhost:8000/dashboard/admin/functions/usuarios/update_personal_data.php",{
+                        type:'POST',
+                        dataType:'JSON',
+                        data:{
+                          'cell_phone':$("#cell_phone").val(),
+                          'email':$('#email').val(),
+                          'user_id':$('#user_id').val(),
+                          'form':'contacto'
+                        }
+                      }).then(function(res){
+                        console.log(res)
+                        if(res===0){
+                          document.getElementById('customSwitch3').checked=false
+                          document.getElementById('email').disabled=true
+                          document.getElementById('cell_phone').disabled=true
+                          document.getElementById('customSwitch3').disabled=true
+                          document.getElementById('btn3').disabled=true
+                          document.getElementById('message3').innerHTML='<div class="alert alert-success alert-dismissible fade show" role="alert">El formulario ha sido enviado con exito<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+                          setTimeout(function(){ location.reload()}, 2000);
 
-  });
-  $('#quickForm').validate({
-    rules: {
-      firstnames:{
-       required:true,
-       minlength:3
-     },
-     surnames:{
-       required:true,
-       minlength:3
-     },
-     document:{
-       required:true,
-       minlength:8,
-       maxlength:8
-     },
-     address_street:{
-       required:true,
-     },
-     address_number:{
-       required:true,
-     },
-     cell_phone:{
-       required:true,
-       minlength:8,
-       maxlength:8
-     },
-     email:{
-       required:true,
-       email:true
-     }
-    },
-    messages: {
-     firstnames: {
-       required: "Este campo es obligatorio",
-       minlength:"El nombre ingresado es muy corto"
-     },
-     surnames: {
-       required: "Este campo es obligatorio",
-       minlength:"El apellido ingresado es muy corto"
-     },
-     document: {
-       required: "Este campo es obligatorio",
-       minlength:"El n° de documento ingresado es muy corto",
-       maxlength:"El n° de documento ingresado es muy largo"
-     },
-     address_street:{
-       required:"Este campo es obligatorio"
-     },
-     address_number:{
-       required:"Este campo es obligatorio"
-     },
-     cell_phone:{
-       required:"Este campo es obligatorio",
-       minlength:"El n° de telefono ingresado es muy corto",
-       maxlength:"El n° de telefono ingresado es muy largo"
-     },
-     email:{
-       required:"Este campo es obligatorio",
-       email:"El correo electronico ingresado no es valido",
-     }
-
-     
-    },
-    errorElement: 'span',
-   errorPlacement: function (error, element) {
-     error.addClass('invalid-feedback');
-      element.closest('.form-group').append(error);
-   },
-  highlight: function (element, errorClass, validClass) {
-     $(element).addClass('is-invalid');
- },
-    unhighlight: function (element, errorClass, validClass) {
-      $(element).removeClass('is-invalid');
-    }
-  });
-});
-</script>
+                        }else{
+                          document.getElementById('message3').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Error</strong>, los datos ingresados coinciden con los de otro usuario<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+                        }
+                      })
+                      
+                    }
+                  });
+                  $('#form3').validate({
+                    rules: {
+                        cell_phone:{
+                        minlength:8,
+                        maxlength:8,
+                        required:true
+                        },
+                        email:{
+                          required:true,
+                          email:true
+                        }
+                    },
+                    messages: {
+                      cell_phone: {
+                        minlength:'El n° de telefono ingresado es muy corto',
+                        maxlength:'El n° de telefono ingresado es muy corto', 
+                        required: 'Ingrese un n° de telefono sin prefijo',
+                      },
+                      email:{
+                        required:'Ingrese un correo electronico',
+                        email:'Ingrese un correo electronico valido'
+                      }
+                    
+                    
+                    
+                    },
+                    errorElement: 'span',
+                    errorPlacement: function (error, element) {
+                      error.addClass('invalid-feedback');
+                      element.closest('.form-group').append(error);
+                    },
+                    highlight: function (element, errorClass, validClass) {
+                      $(element).addClass('is-invalid');
+                    },
+                    unhighlight: function (element, errorClass, validClass) {
+                      $(element).removeClass('is-invalid');
+                    }
+                  });
+                });
+                </script>
 </body>
 </html>
 

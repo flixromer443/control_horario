@@ -37,7 +37,7 @@
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
-  <!-- Navbar -->
+  <!-- Navbar -->','.$row['place'].
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
@@ -469,381 +469,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-header">EXAMPLES</li>
-          <li class="nav-item">
-            <a href="../calendar.html" class="nav-link">
-              <i class="nav-icon far fa-calendar-alt"></i>
-              <p>
-                Calendar
-                <span class="badge badge-info right">2</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Gallery
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../kanban.html" class="nav-link">
-              <i class="nav-icon fas fa-columns"></i>
-              <p>
-                Kanban Board
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-envelope"></i>
-              <p>
-                Mailbox
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../mailbox/mailbox.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Inbox</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../mailbox/compose.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Compose</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../mailbox/read-mail.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Read</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                Pages
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../examples/invoice.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Invoice</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/profile.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Profile</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/e-commerce.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>E-commerce</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/projects.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Projects</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/project-add.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Add</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/project-edit.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Edit</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/project-detail.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Detail</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/contacts.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Contacts</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/faq.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>FAQ</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/contact-us.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Contact us</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-plus-square"></i>
-              <p>
-                Extras
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v1
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="../examples/login.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/register.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/forgot-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/recover-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v1</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v2
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="../examples/login-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/register-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/forgot-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../examples/recover-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v2</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/lockscreen.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Lockscreen</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/legacy-user-menu.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Legacy User Menu</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/language-menu.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Language Menu</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/404.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Error 404</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/500.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Error 500</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/pace.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Pace</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../examples/blank.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Blank Page</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../../starter.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Starter Page</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-search"></i>
-              <p>
-                Search
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../search/simple.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Simple Search</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../search/enhanced.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Enhanced</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-header">MISCELLANEOUS</li>
-          <li class="nav-item">
-            <a href="../../iframe.html" class="nav-link">
-              <i class="nav-icon fas fa-ellipsis-h"></i>
-              <p>Tabbed IFrame Plugin</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
-              <p>Documentation</p>
-            </a>
-          </li>
-          <li class="nav-header">MULTI LEVEL EXAMPLE</li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-circle"></i>
-              <p>
-                Level 1
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Level 2
-                    <i class="right fas fa-angle-left"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
-            </a>
-          </li>
-          <li class="nav-header">LABELS</li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-danger"></i>
-              <p class="text">Important</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-warning"></i>
-              <p>Warning</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-circle text-info"></i>
-              <p>Informational</p>
-            </a>
-          </li>
+          
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -1067,7 +693,7 @@
                           <!-- select -->
                           <div class="form-group">
                             <label>Tipo</label>
-                            <select name="documents_type_id" id="documents_type_id" class="custom-select" onchange="alert('holaaa')">
+                            <select name="documents_type_id" id="documents_type_id" class="custom-select" >
                             <?php
                                 $link=mysqli_connect("db","root","root","gestion_empleados");
                                 $sql="select * from documents_type";
@@ -1227,64 +853,19 @@
                             <label>Provincia</label>
                             <select class="custom-select" name="province" id="province" onchange="return findPostalCodes();">
                             <option value="1">Buenos Aires</option>
-                            <?php
-                                //$link=mysqli_connect("db","root","root","gestion_empleados");
-                                //$sql="select * from provinces order by id";
- 
-                              //if($stmt = mysqli_prepare($link, $sql)){
-                                // Bind variables to the prepared statement as parameters
-                                
-                                              
-                                // Set parameters
-                                
-                                // Attempt to execute the prepared statement
-                                //if(mysqli_stmt_execute($stmt)){
-                                  //  $result = mysqli_stmt_get_result($stmt);
-                            
-                                        /* Fetch result row as an associative array. Since the result set
-                                        contains only one row, we don't need to use while loop */
-                                    //  while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                                       //   echo '<option value='.$row['id'].'>'.$row['province'].'</option>';
-//
-                                      
-  //              
-    //                                    }
-                                      //IMPORTANTE
-                                      //consulta para insert
-                                      //insert into usuarios(nombre_completo,id_informacion_laboral,id_datos_personales) values('Felix Eduardo Romero',uuid(),uuid());
-
-       //                         } else{
-         //                           echo "Oops! Algo salió mal. Por favor, inténtelo de nuevo más tarde.";
-           //                     }
-                                
-                   //         }
-                 //           mysqli_stmt_close($stmt);
-                            
-                            // Close connection
-               //             mysqli_close($link);
-             //               
-                                
-                              ?>
-                      
                             </select>
                         </div>
-
-                        
-                        <div id="places" class="form-group"></div>
-                    <div class="form-group">
-                        <label>Calle:</label>
-                          <input type="text" name="address_street" id="address_street"onclick="return findPlacesByPostalCodes()"  class="form-control input"/>
-                      </div>
-                      <div class="form-group">
-                          <label>Numero:</label>
-                          <input type="number" name="address_number" id="address_number"  class="form-control input"/>
-                      </div>    
-                      <div class="form-group">
-                            <label>Localidad</label>
-                            <select class="custom-select" name="address_location" id="address_location" onchange="return findPostalCodes();">
+              <div class="form-group">
+                <label for="municipio">Municipio</label>
+                <script>
+                              function showMuni(muni){
+                                document.getElementById('muni').innerHTML='<label for="municipalidad">Id municipio</label><select class="custom-select" name="municipalidad" id="municipalidad" disabled ><option value='+muni+'>'+muni +'</option></select>'
+                               }
+                            </script>
+                <select class="custom-select" name="mu" id="mu" >
                             <?php
                                 $link=mysqli_connect("db","root","root","gestion_empleados");
-                                $sql="select * from postal_codes order by place";
+                                $sql="select * from munis order by nombre";
  
                               if($stmt = mysqli_prepare($link, $sql)){
                                 // Bind variables to the prepared statement as parameters
@@ -1299,7 +880,7 @@
                                         /* Fetch result row as an associative array. Since the result set
                                         contains only one row, we don't need to use while loop */
                                       while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                                          echo '<option value='.$row['postal_code'].'>'.$row['place'].'</option>';
+                                          echo '<option value='.$row['id'].' onclick="showMuni('.$row['id'].')">'.$row['nombre'].'</option>';
 
                                       
                                       }
@@ -1321,8 +902,72 @@
                               ?>
                       
                             </select>
+                            
+              </div>
+              <div id="muni" class="form-group">
+              </div>
+              <div class="form-group">
+                <label for="localidad">Localidad</label>
+              <select class="custom-select" name="localidad" id="localidad" >
+                            <?php
+                                $link=mysqli_connect("db","root","root","gestion_empleados");
+                                $sql="select * from postal_codes order by place";
+ 
+                              if($stmt = mysqli_prepare($link, $sql)){
+                                // Bind variables to the prepared statement as parameters
+                                
+                                              
+                                // Set parameters
+                                
+                                // Attempt to execute the prepared statement
+                                if(mysqli_stmt_execute($stmt)){
+                                    $result = mysqli_stmt_get_result($stmt);
+                            
+                                        /* Fetch result row as an associative array. Since the result set
+                                        contains only one row, we don't need to use while loop */
+                                      while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                                          echo '<option value="'.trim($row['place']).'" onclick="showPostalCode('.$row['postal_code'].')">'.$row['place'].'</option>';
+
+                                      
+                                      }
+                                      //IMPORTANTE
+                                      //consulta para insert
+                                      //insert into usuarios(nombre_completo,id_informacion_laboral,id_datos_personales) values('Felix Eduardo Romero',uuid(),uuid());
+
+                                } else{
+                                    echo "Oops! Algo salió mal. Por favor, inténtelo de nuevo más tarde.";
+                                }
+                                
+                            }
+                            mysqli_stmt_close($stmt);
+                            
+                            // Close connection
+                            mysqli_close($link);
+                            
+                                
+                              ?>
+                      
+                            </select>
+
+              </div>
+                <script>
+                  function showPostalCode(cp){
+                    document.getElementById('cp').innerHTML='<label for="postal">Codigo postal</label><select class="custom-select" name="postal" id="postal" disabled><option value='+cp+'>CP'+cp +'</option></select>'
+                  }
+                  
+                </script>
+                        <div id="cp" class="form-group">
+
                         </div>
-                        <div id="postal_codes" class="form-group"></div>
+                    <div class="form-group">
+                        <label>Calle:</label>
+                          <input type="text" name="address_street" id="address_street"onclick="return findPlacesByPostalCodes()"  class="form-control input"/>
+                      </div>
+                      <div class="form-group">
+                          <label>Numero:</label>
+                          <input type="number" name="address_number" id="address_number"  class="form-control input"/>
+                      </div>    
+                      
 
                       <br>
                       <button class="btn btn-primary"  type="button" onclick="stepper.previous()">Anterior</button>
@@ -1349,12 +994,25 @@
                           <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                         </div>
                         <input type="email" name="email" id="email" class="form-control" placeholder="***@gmail.com">
-                    </div>
+                       
+                      </div>
                   
 
-                        
-                      <button class="btn btn-primary" type="button" onclick="stepper.previous()">Anterior</button>
-                      <button type="submit" class="btn btn-primary">Enviar</button>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <button class="btn btn-primary" type="button" onclick="stepper.previous()">Anterior</button>
+                              <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                            <div class="col-sm-6">
+                              <div  id="ierror1">
+
+                              </div>
+                              <div  id="ierror2">
+
+                              </div>
+                            </div>
+                        </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -1599,10 +1257,25 @@
 </script>
 <script>
   //validation
+  
   $(function () {
+  
   $.validator.setDefaults({
     submitHandler: function () {
-      $.ajax("http://localhost:8000/dashboard/functions/insert_user.php",{
+     
+      let muni=$('#municipalidad').val()
+      let cp=$('#localidad').val()
+      let errors=false
+      if(!muni){
+        errors=true
+        document.getElementById('ierror1').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Error</strong>, debe seleccionar un municipio<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+      }
+      if(!cp){
+        errors=true
+        document.getElementById('ierror2').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Error</strong>, debe seleccionar una localidad<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+      }
+      if(!errors){
+        $.ajax("http://localhost:8000/dashboard/admin/functions/usuarios/insert_user.php",{
         type:'POST',
         dataType:'JSON',
         data:{
@@ -1610,23 +1283,32 @@
           'surnames':$("#surnames").val(),
           'document':$("#document").val(),
           'documents_type_id':$("#documents_type_id").val(),
+          'sex':$('#sex').val(),
           'date_of_birth':$("#date_of_birth").val(),
           'place_of_birth':$("#place_of_birth").val(),
+          'municipio':muni,
+          'cp':cp,
           'address_street':$("#address_street").val(),
           'address_number':$("#address_number").val(),
-          'address_location':$("#address_location").val(),
           'address_postal_code':$("#address_postal_code").val(),
           'prefijo':$("#prefijo").val(),
           'cell_phone':$("#cell_phone").val(),
           'email':$("#email").val(),
           
+          'create':'create'
         }
       }).then(function(res){
         console.log(res);
+        if(res==1){
+          document.getElementById('ierror1').innerHTML='<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Error</strong>, los datos ingresados ya existen en la base de datos<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+        }else{
+          document.getElementById('ierror1').innerHTML='<div class="alert alert-success alert-dismissible fade show" role="alert">El formulario ha sido enviado con exito <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
+          setTimeout(function(){location.reload()},3000)
+        }
         
       });
-      alert( "Usuario cargado exitosamente" );
-
+      }
+      
     }
 
   });
